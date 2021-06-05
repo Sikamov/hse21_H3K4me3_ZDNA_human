@@ -5,13 +5,12 @@ source('lib.R')
 # https://bioconductor.org/packages/release/bioc/vignettes/ChIPpeakAnno/inst/doc/quickStart.html
  BiocManager::install("ChIPpeakAnno")
  BiocManager::install("org.Hs.eg.db")
- BiocManager::install("org.Mm.eg.db")
+
 
 library(ChIPpeakAnno)
 library(TxDb.Hsapiens.UCSC.hg19.knownGene)
 library(org.Hs.eg.db)
-#library(TxDb.Mmusculus.UCSC.mm10.knownGene)
-#library(org.Mm.eg.db)
+
 
 ###
 

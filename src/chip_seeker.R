@@ -20,8 +20,8 @@ library(ChIPpeakAnno)
 ###
 
 #NAME <- 'H3K4me3_H1.intersect_with_ZHunt'
-#NAME <- 'ZHunt'
-NAME <- 'H3K4me3_H1.ENCFF277AOQ.hg19.filtered'
+#NAME <- 'zhunt'
+#NAME <- 'H3K4me3_H1.ENCFF277AOQ.hg19.filtered'
 #NAME <- 'H3K4me3_H1.ENCFF456NIF.hg19.filtered'
 BED_FN <- paste0(DATA_DIR, NAME, '.bed')
 

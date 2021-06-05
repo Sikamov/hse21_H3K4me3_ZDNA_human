@@ -2,7 +2,7 @@ source('lib.R')
 
 ###
 
-#NAME <- 'DeepZ'
+#NAME <- 'zhunt'
 #NAME <- 'H3K4me3_H1.ENCFF277AOQ.hg19'
 #NAME <- 'H3K4me3_H1.ENCFF277AOQ.hg38'
 #NAME <- 'H3K4me3_H1.ENCFF456NIF.hg19'

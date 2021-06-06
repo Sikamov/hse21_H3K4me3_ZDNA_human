@@ -7,6 +7,8 @@ source('lib.R')
 #NAME <- 'H3K4me3_H1.ENCFF277AOQ.hg38'
 #NAME <- 'H3K4me3_H1.ENCFF456NIF.hg19'
 #NAME <- 'H3K4me3_H1.ENCFF456NIF.hg38'
+#NAME <- 'H3K4me3_H1.intersect_with_ZHunt'
+
 
 ###
 
@@ -20,4 +22,4 @@ ggplot(bed_df) +
   geom_histogram() +
   ggtitle(NAME, subtitle = sprintf('Number of peaks = %s', nrow(bed_df))) +
   theme_bw()
-ggsave(paste0('len_hist.', NAME, '.png'), path = OUT_DIR)
+ggsave(paste0('len_hist.', NAME, '.pdf'), path = OUT_DIR)

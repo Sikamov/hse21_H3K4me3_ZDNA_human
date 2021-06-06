@@ -30,7 +30,7 @@
 
 ## UCSC GenomeBrowser
 ### UCSC GenomeBrowser session:  
-https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr10%3A101768563%2D101769765&hgsid=1121612033_LAPFnPlnqgyH5CzbhnYH5McVaKIX
+https://genome.ucsc.edu/s/SikamovK/hse21_H3K4me3_ZDNA_human
 ![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/Genome_browser.png)
 
 ## Association of peaks with genes

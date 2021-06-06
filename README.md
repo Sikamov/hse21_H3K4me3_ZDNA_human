@@ -35,3 +35,6 @@ UCSC GenomeBrowser session:  https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&la
 ## Association of peaks with genes
 The number of peaks that could be associated with genes: 7097
 The total number of unique genes: 4721
+
+## GO-analysis
+![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/GO_analysis.png)

@@ -21,7 +21,9 @@
 ### Параметр фильтрации для ENCFF277AOQ: 5000
 
 ## Положение ChIP-seq пиков относительно аннотированных генов
+### ENCFF277AOQ
 ![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/chip_seeker.H3K4me3_H1.ENCFF277AOQ.hg19.filtered.plotAnnoPie.png)
+### ENCFF456NIF
 ![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/chip_seeker.H3K4me3_H1.ENCFF456NIF.hg19.filtered.plotAnnoPie.png)
 
 ## Гистограмма распределения длин участков вторичной структуры ДНК 

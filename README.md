@@ -15,11 +15,15 @@
 ## Гистограмма распределения длин ChIP-seq пиков после фильтрации
 ![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/filter_peaks.H3K4me3_H1.ENCFF456NIF.hg19.filtered.hist.png)
 ### Параметр фильтрации для ENCFF456NIF: 7500 
+
+
 ![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/filter_peaks.H3K4me3_H1.ENCFF277AOQ.hg19.filtered.hist.png)
 ### Параметр фильтрации для ENCFF277AOQ: 5000
 
 ## Положение ChIP-seq пиков относительно аннотированных генов
+### ENCFF277AOQ
 ![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/chip_seeker.H3K4me3_H1.ENCFF277AOQ.hg19.filtered.plotAnnoPie.png)
+### ENCFF456NIF
 ![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/chip_seeker.H3K4me3_H1.ENCFF456NIF.hg19.filtered.plotAnnoPie.png)
 
 ## Гистограмма распределения длин участков вторичной структуры ДНК 
@@ -38,6 +42,7 @@
 ### UCSC GenomeBrowser сессия:  
 https://genome.ucsc.edu/s/SikamovK/hse21_H3K4me3_ZDNA_human
 ![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/Genome_browser.png)
+![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/Genome_browser_1.png)
 
 ## Ассоциация пиков с генами 
 ### Количество пиков, которые могут быть связаны с генами: 7097

@@ -51,7 +51,6 @@ https://genome.ucsc.edu/s/SikamovK/hse21_H3K4me3_ZDNA_human
 ## GO-анализ
 ![alt text](https://github.com/Sikamov/hse21_H3K4me3_ZDNA_human/blob/main/images/GO_analysis.png)
 
-
 # Используемые команды
 
 ### Скачивание и обрезание bed.файлов:

@@ -48,7 +48,7 @@ https://genome.ucsc.edu/s/SikamovK/hse21_H3K4me3_ZDNA_human
 
 # Используемые команды
 
-### Скачивание и обрезание bed.файлов
+### Скачивание и обрезание bed.файлов:
 
 •	mkdir ~/project
 
@@ -60,7 +60,7 @@ https://genome.ucsc.edu/s/SikamovK/hse21_H3K4me3_ZDNA_human
 
 •	zcat ENCFF456NIF.bed.gz | cut -f1-5 > H3K4me3_H1. ENCFF456NIF.hg38.bed
 
-### Конвертирование версии генома
+### Конвертирование версии генома:
 
 •	wget https://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/hg38ToHg19.over.chain.gz
 
@@ -68,11 +68,11 @@ https://genome.ucsc.edu/s/SikamovK/hse21_H3K4me3_ZDNA_human
 
 •	liftOver   H3K4me3_H1.ENCFF277AOQ.hg38.bed   hg38ToHg19.over.chain.gz   H3K4me3_H1.ENCFF277AOQ.hg19.bed   H3K4me3_H1. ENCFF456NIF.unmapped.bed
 
-### Объединяем два набора отфильтрованных ChIP-seq
+### Объединяем два набора отфильтрованных ChIP-seq:
 
 •	cat  *.filtered.bed  |   sort -k1,1 -k2,2n   |   bedtools merge   >  H3K4me3_H1.merge.hg19.bed 
 
-### GitHub <–> Сервер 
+### GitHub <–> Сервер:
 
 •	mkdir github
 
@@ -88,15 +88,15 @@ https://genome.ucsc.edu/s/SikamovK/hse21_H3K4me3_ZDNA_human
 
 •	    git push     (/pull)
 
-### Скачивание вторичной структуры ДНК (ZDNA)
+### Скачивание вторичной структуры ДНК (ZDNA):
 
 •	wget https://raw.githubusercontent.com/Nazar1997/DeepZ/master/annotation/zhunt.bed
 
-### Пересечения гистоновой метки и вторичной структуры ДНК
+### Пересечения гистоновой метки и вторичной структуры ДНК:
 
 •	bedtools intersect  -a zhunt.bed   -b  H3K4me3_H1.merge.hg19.bed  >  H3K4me3_H1.intersect_with_ZHunt.bed
 
-### Визуализация в геномном браузере
+### Визуализация в геномном браузере:
 
 •	track visibility=dense name="ENCFF456NIF"  description="H3K4me3_H1.ENCFF456NIF.hg19.filtered.bed"
 https://raw.githubusercontent.com/Sikamov/hse21_H3K4me3_ZDNA_human/main/data/H3K4me3_H1.ENCFF456NIF.hg19.filtered.bed

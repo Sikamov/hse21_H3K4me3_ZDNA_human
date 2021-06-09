@@ -105,7 +105,10 @@ https://raw.githubusercontent.com/Sikamov/hse21_H3K4me3_ZDNA_human/main/data/H3K
 https://raw.githubusercontent.com/Sikamov/hse21_H3K4me3_ZDNA_human/main/data/H3K4me3_H1.ENCFF277AOQ.hg19.filtered.bed
 
 •	track visibility=dense name="ChIP_merge"  color=50,50,200   description="H3K4me3_H1.merge.hg19.bed"
-https://raw.githubusercontent.com/Sikamov/hse21_H3K4me3_ZDNA_human/main/data/H3K4me3_H1.merge.hg19.bedtrack visibility=dense name="ZHunt"  color=0,200,0  description="ZHunt"
+https://raw.githubusercontent.com/Sikamov/hse21_H3K4me3_ZDNA_human/main/data/H3K4me3_H1.merge.hg19.bedtrack 
+
+•	visibility=dense name="ZHunt"  color=0,200,0  description="ZHunt"
+https://raw.githubusercontent.com/Sikamov/hse21_H3K4me3_ZDNA_human/main/data/zhunt.bed
 
 •	track visibility=dense name="intersect_with_ZHunt"  color=200,0,0  description="H3K4me3_A549.intersect_with_ZHunt.bed"
 https://raw.githubusercontent.com/Sikamov/hse21_H3K4me3_ZDNA_human/main/data/H3K4me3_H1.intersect_with_ZHunt.bed
